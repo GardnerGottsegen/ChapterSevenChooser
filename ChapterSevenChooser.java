@@ -1,16 +1,48 @@
 import java.util.Scanner;
 
-public class ChapterSevenExercises
+public class ChapterSevenChooser
 {
-   public void printProduct(int a, int b)
+
+   //
+   // Specifications for this method are described in
+   // Litvin Chapter 7 Exercises #3
+   //
+   public void printProduct(int n, int m)
    {
       int product = 0;
       System.out.println("The product is " + product + ".");
    }
 
+   //
+   // Specifications for this method are described in
+   // Litvin Chapter 7 Exercises #9
+   //
+   public void sumNumbers(int n)
+   {
+   
+   }
+   
+   //
+   // Specifications for this method are described in
+   // Litvin Chapter 7 Exercises #21
+   //
+   public void printCheckerboard(int n)
+   {
+   
+   }
+   
+   //
+   // Specifications for this method are described in
+   // Litvin Chapter 7 Exercises #25
+   //
+   public void coinCombinations(int n)
+   {
+   
+   }
+   
    public static void main(String[] args)
    {
-      ChapterSevenExercises e = new ChapterSevenExercises();
+      ChapterSevenChooser e = new ChapterSevenChooser();
       Scanner keyboard = new Scanner(System.in);
       int answer = 1;
       int a, b;
